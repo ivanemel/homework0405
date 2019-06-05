@@ -1,0 +1,110 @@
+header{
+	color: white;
+	background-color: rgb(100 100 100);
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+	font-weight: lighter;
+}
+
+header p:first-of-type{
+	font-size: 2em;
+}
+
+.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+main{
+	padding: 5%;
+}
+
+article img{
+	width: 100%;
+	box-shadow: 3px 3px 10px;
+	margin-bottom: 10px;
+}
+
+article p:first-of-type{
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+article{
+	margin-bottom: 50px;
+}
+
+article::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+aside{
+	padding: 5%;
+	background-color: rgb(247 247 247);
+}
+aside div{
+	display: inline-block;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+aside h4{
+	color: orange;
+}
+
+nav{
+	background-color: rgb(247 247 247);
+	padding: 20px 5%;
+}
+
+nav div{
+	display: inline-block;
+	text-align: center;
+	margin: 0px 20px;
+}
+
+.navtop{
+	width: 100%;
+	margin: 20px auto;
+}
+
+nav h4{
+	color: green;
+}
+
+button{
+	margin: 1% 2%;
+}
+
+h5{
+	color: blue;
+	margin: 5px;
+	text-align: center;
+}
+
+li{
+	list-style-type: none;
+	margin: 0px auto;
+	text-align: center;
+}
+
+ul{
+	padding-left: 0px;
+
+}
+
+footer{
+	color: white;
+	background-color: rgb(100 100 100);
+	text-align: center;
+	padding: 10px;
+	font-family: arial;
+	font-weight: lighter;
+}
+
+footer p:first-of-type{
+	font-size: 2em;
+}
